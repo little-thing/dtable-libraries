@@ -1,12 +1,12 @@
 {
-  "name": "@blastz/qrcode",
+  "name": "@dtable/qrcode",
   "version": "1.0.0",
   "description": "QRCode generator for node.js",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/node-qrcode",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/node-qrcode",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
   "keywords": [
     "qr",
@@ -14,11 +14,11 @@
     "canvas",
     "qrcode"
   ],
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {
     "@types/qrcode": "^1.5.5",
-    "canvas": "^2.11.2",
+    "canvas": "^3.1.0",
     "deepmerge": "^4.3.1",
     "qrcode": "^1.5.3"
   }

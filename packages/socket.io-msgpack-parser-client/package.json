@@ -1,16 +1,16 @@
 {
-  "name": "@blastz/socket.io-msgpack-parser-client",
+  "name": "@dtable/socket.io-msgpack-parser-client",
   "version": "0.2.0",
   "description": "socket.io msgpack parser client",
   "type": "module",
   "main": "./index.js",
   "types": "./index.d.ts",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/socket.io-msgpack-parser-client",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/socket.io-msgpack-parser-client",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {
     "msgpackr": "^1.5.5",

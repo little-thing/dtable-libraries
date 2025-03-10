@@ -1,12 +1,12 @@
 {
-  "name": "@blastz/logger",
+  "name": "@dtable/logger",
   "version": "0.10.0",
   "description": "nodejs logger",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/logger",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/logger",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
   "keywords": [
     "logger",
@@ -14,7 +14,7 @@
     "debug",
     "log"
   ],
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.11.19",

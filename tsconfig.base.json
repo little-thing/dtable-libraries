@@ -11,7 +11,7 @@
     "outDir": "./dist",
     "removeComments": true,
     "strict": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "noImplicitOverride": true,

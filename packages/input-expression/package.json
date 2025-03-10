@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "description": "input expression",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/input-expression",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/input-expression",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {}
 }

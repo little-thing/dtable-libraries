@@ -3,12 +3,12 @@
   "version": "2.0.0",
   "description": "zhipuai sdk",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/zhipuai",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/zhipuai",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.2",

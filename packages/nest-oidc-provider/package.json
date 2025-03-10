@@ -1,17 +1,17 @@
 {
-  "name": "@blastz/nest-oidc-provider",
+  "name": "@dtable/nest-oidc-provider",
   "version": "0.4.0",
   "description": "nestjs oidc provider",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/nest-oidc-provider",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/nest-oidc-provider",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
   "scripts": {
     "build": "pkgx build . --pack"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "devDependencies": {
     "@nestjs/common": "^10.3.1",

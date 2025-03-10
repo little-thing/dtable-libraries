@@ -1,5 +1,5 @@
 {
-  "name": "@blastz/nest-async-cache-dedupe",
+  "name": "@dtable/nest-async-cache-dedupe",
   "version": "0.1.0",
   "description": "nestjs async cache dedupe",
   "type": "module",
@@ -10,13 +10,13 @@
     "import": "./esm/index.js"
   },
   "types": "./index.d.ts",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/nest-async-cache-dedupe",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/nest-async-cache-dedupe",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
   "keywords": [],
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "devDependencies": {
     "@nestjs/common": "^9.3.9",

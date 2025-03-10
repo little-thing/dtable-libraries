@@ -1,14 +1,14 @@
 {
-  "name": "@blastz/nico",
+  "name": "@dtable/nico",
   "version": "0.25.0",
   "description": "Backend framework build on koa",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/nico",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/nico",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "devDependencies": {
     "@blastz/logger": "^0.9.2"

@@ -1,5 +1,5 @@
 {
-  "name": "@blastz/node-proxy",
+  "name": "@dtable/node-proxy",
   "version": "0.1.0",
   "description": "Node proxy",
   "type": "module",
@@ -10,12 +10,12 @@
     "import": "./esm/index.js"
   },
   "types": "./index.d.ts",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/node-proxy",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/node-proxy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {}
 }

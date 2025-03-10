@@ -1,14 +1,14 @@
 {
-  "name": "@blastz/inject-config",
+  "name": "@dtable/inject-config",
   "version": "0.4.0",
   "description": "nodejs inject-config",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/inject-config",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/inject-config",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {
     "chalk": "^5.3.0",

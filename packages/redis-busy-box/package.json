@@ -1,5 +1,5 @@
 {
-  "name": "@blastz/redis-busy-box",
+  "name": "@dtable/redis-busy-box",
   "version": "0.3.0",
   "description": "redis busy box",
   "type": "module",
@@ -21,12 +21,12 @@
       "node18-linux-x64"
     ]
   },
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/redis-busy-box",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/redis-busy-box",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "dependencies": {
     "@inquirer/prompts": "^3.2.0",

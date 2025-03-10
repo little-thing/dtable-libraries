@@ -1,4 +1,4 @@
-import { CallHandler, ExecutionContext, NestInterceptor } from '@nestjs/common';
+import type { CallHandler, ExecutionContext, NestInterceptor } from '@nestjs/common';
 import { Observable, from, lastValueFrom } from 'rxjs';
 
 import { Request } from 'express';

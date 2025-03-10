@@ -1,14 +1,14 @@
 {
-  "name": "@blastz/jest",
+  "name": "@dtable/jest",
   "version": "0.2.0",
   "description": "jest config generator",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/jest",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/jest",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.1",

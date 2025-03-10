@@ -1,5 +1,5 @@
 {
-  "name": "@blastz/nest-typeorm-helper",
+  "name": "@dtable/nest-typeorm-helper",
   "version": "0.1.0",
   "description": "nestjs typeorm helper",
   "type": "module",
@@ -10,13 +10,13 @@
     "import": "./esm/index.js"
   },
   "types": "./index.d.ts",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/nest-typeorm-helper",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/nest-typeorm-helper",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
   "keywords": [],
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "devDependencies": {
     "@nestjs/common": "^9.3.9",

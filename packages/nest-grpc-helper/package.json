@@ -1,15 +1,15 @@
 {
-  "name": "@blastz/nest-grpc-helper",
+  "name": "@dtable/nest-grpc-helper",
   "version": "0.15.0",
   "description": "nestjs grpc helper",
   "type": "module",
-  "homepage": "https://github.com/blastZ/pkg-universe/tree/master/packages/nest-grpc-helper",
+  "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/nest-grpc-helper",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blastZ/pkg-universe.git"
+    "url": "git+https://github.com/little-thing/dtable-libraries.git"
   },
   "keywords": [],
-  "author": "blastz",
+  "author": "little-thing",
   "license": "MIT",
   "devDependencies": {
     "@grpc/grpc-js": "^1.8.12",
