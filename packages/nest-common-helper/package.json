@@ -1,6 +1,6 @@
 {
   "name": "@dtable/nest-common-helper",
-  "version": "0.13.0",
+  "version": "0.13.1",
   "description": "nestjs common helper",
   "type": "module",
   "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/nest-common-helper",

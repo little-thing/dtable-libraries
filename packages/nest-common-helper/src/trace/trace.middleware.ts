@@ -208,14 +208,9 @@ export class TraceMiddleware implements NestMiddleware {
       };
 
       try {
-        next(wrappedNext);
+        next();
       } catch (error: any) {
-        error.meta = {
-          resTime: this.getResTime(startTime),
-          requestId,
-        } satisfies ExceptionMeta;
-
-        next(error);
+        wrappedNext(error);
       }
     });
   }
