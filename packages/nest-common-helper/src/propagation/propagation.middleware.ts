@@ -83,8 +83,8 @@ export class PropagationMiddleware implements NestMiddleware {
     return propagationContext.run(
       { headers: this.getHeaders(request) },
 
-      () => {
-        next();
+     async () => {
+        await next();
       },
     );
   }

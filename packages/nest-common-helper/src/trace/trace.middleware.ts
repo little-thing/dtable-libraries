@@ -182,11 +182,11 @@ export class TraceMiddleware implements NestMiddleware {
    * @param response 响应对象
    * @param next 下一个中间件函数
    */
-  use(request: any, response: Response, next: NextFunction) {
+  async use(request: any, response: Response, next: NextFunction) {
     const requestMetadata = this.getRequestMetadata(request);
     const requestId = this.getRequestId(request, response);
 
-    return traceContext.run({ requestId }, () => {
+    return traceContext.run({ requestId }, async () => {
       const startTime = process.hrtime.bigint();
 
       logger.child(requestMetadata).trace('request in');
@@ -208,7 +208,7 @@ export class TraceMiddleware implements NestMiddleware {
       };
 
       try {
-        next();
+       await next();
       } catch (error: any) {
         wrappedNext(error);
       }
