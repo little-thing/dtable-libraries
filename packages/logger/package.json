@@ -1,6 +1,6 @@
 {
   "name": "@dtable/logger",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "nodejs logger",
   "type": "module",
   "homepage": "https://github.com/little-thing/dtable-libraries/tree/master/packages/logger",
