@@ -5,13 +5,13 @@ Node.js logger based on [winston](https://github.com/winstonjs/winston).
 ## Install
 
 ```bash
-$ npm install @blastz/logger
+$ npm install @dtable/logger
 ```
 
 ## Usage
 
 ```ts
-import { logger, LoggerLevel, createConsoleTransport } from "@blastz/logger";
+import { logger, LoggerLevel, createConsoleTransport } from "@dtable/logger";
 
 logger.clear().add(createConsoleTransport());
 

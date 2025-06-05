@@ -8,7 +8,7 @@ Deafult global config path will be `path.resolve(process.cwd(), './config')`, yo
 with env `INJECT_CONFIG_PATH`.
 
 ```ts
-import { inject } from '@blastz/inject-config';
+import { inject } from '@dtable/inject-config';
 
 type RedisConfig = {
   host: string;

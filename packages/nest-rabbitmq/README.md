@@ -5,7 +5,7 @@
 Install nest-rabbitmq
 
 ```bash
-npm install @blastz/nest-rabbitmq
+npm install @dtable/nest-rabbitmq
 ```
 
 ## Examples
@@ -17,7 +17,7 @@ import {
   RabbitMQModule,
   RabbitMQService,
   ConnectionEvent,
-} from '@blastz/nest-rabbitmq';
+} from '@dtable/nest-rabbitmq';
 
 @Module({
   imports: [
@@ -52,7 +52,7 @@ import {
   ChannelEvent,
   ChannelWrapper,
   RabbitMQService,
-} from '@blastz/nest-rabbitmq';
+} from '@dtable/nest-rabbitmq';
 
 export class AppController implements OnModuleInit {
   private channel: ChannelWrapper;
@@ -82,7 +82,7 @@ export class AppController implements OnModuleInit {
 Enable canary feature
 
 ```ts
-import { CanaryStrategy, RabbitMQModule } from '@blastz/nest-rabbitmq';
+import { CanaryStrategy, RabbitMQModule } from '@dtable/nest-rabbitmq';
 
 @Module({
   imports: [
@@ -101,7 +101,7 @@ export class AppModule {}
 Enable message compression
 
 ```ts
-import { RabbitMQModule } from '@blastz/nest-rabbitmq';
+import { RabbitMQModule } from '@dtable/nest-rabbitmq';
 
 @Module({
   imports: [

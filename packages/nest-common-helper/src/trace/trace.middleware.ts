@@ -1,4 +1,4 @@
-import { logger } from '@blastz/logger';
+import { logger } from '@dtable/logger';
 import type { NestMiddleware } from '@nestjs/common';
 import type { NextFunction, Request, Response } from 'express';
 import { v4 as uuid } from 'uuid';

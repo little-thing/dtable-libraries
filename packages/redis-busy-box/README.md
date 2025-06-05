@@ -5,7 +5,7 @@ Redis busy box to resolve redis problems
 ## Installation
 
 ```bash
-npm install -g @blastz/redis-busy-box
+npm install -g @dtable/redis-busy-box
 ```
 
 ## Usage

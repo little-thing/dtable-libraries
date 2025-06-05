@@ -1,7 +1,7 @@
 import cluster from 'cluster';
 import os from 'os';
 
-import { createConsoleTransport, logger, LoggerLevel } from '@blastz/logger';
+import { createConsoleTransport, logger, LoggerLevel } from '@dtable/logger';
 import Router from '@koa/router';
 import Koa from 'koa';
 

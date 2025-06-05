@@ -5,7 +5,7 @@
 Install nest-typeorm-helper
 
 ```bash
-npm install @blastz/nest-typeorm-helper
+npm install @dtable/nest-typeorm-helper
 ```
 
 ## License

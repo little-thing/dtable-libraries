@@ -5,7 +5,7 @@ The [oidc-provider](https://github.com/panva/node-oidc-provider) module for [Nes
 ## Installation
 
 ```bash
-npm install @blastz/nest-oidc-provider
+npm install @dtable/nest-oidc-provider
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ npm install @blastz/nest-oidc-provider
 
 ```ts
 // oidc-config-factory.service.ts
-import { OidcConfig, OidcConfigFactory } from '@blastz/nest-oidc-provider';
+import { OidcConfig, OidcConfigFactory } from '@dtable/nest-oidc-provider';
 
 @Injectable()
 export class OidcConfigFactoryService implements OidcConfigFactory {
@@ -38,7 +38,7 @@ export class OidcConfigFactoryService implements OidcConfigFactory {
 export class OidcConfigFactoryModule {}
 
 // app.module.ts
-import { OidcModule } from '@blastz/nest-oidc-provider';
+import { OidcModule } from '@dtable/nest-oidc-provider';
 
 @Module({
   imports: [
@@ -57,7 +57,7 @@ export class AppModule {}
 ### Use Provider
 
 ```ts
-import { Provider, OidcService } from '@blastz/nest-oidc-provider';
+import { Provider, OidcService } from '@dtable/nest-oidc-provider';
 
 @Injectable()
 export class OidcHelperService {

@@ -1,4 +1,4 @@
-import { logger } from '@blastz/logger';
+import { logger } from '@dtable/logger';
 
 import { InnerRouteMiddleware } from '../../constants/index.js';
 import {

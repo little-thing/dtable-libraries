@@ -5,7 +5,7 @@
 Install nest-grpc-helper
 
 ```bash
-npm install @blastz/nest-grpc-helper
+npm install @dtable/nest-grpc-helper
 ```
 
 ## Protos
@@ -20,7 +20,7 @@ By default, loader will load `main.proto` from `protos` folder under `process.cw
 Create grpc app
 
 ```ts
-import { createGrpcApp } from '@blastz/nest-grpc-helper';
+import { createGrpcApp } from '@dtable/nest-grpc-helper';
 
 const app = await createGrpcApp(AppModule, {
   packageName: 'accountManager',
@@ -33,7 +33,7 @@ const app = await createGrpcApp(AppModule, {
 Register grpc clients
 
 ```ts
-import { GrpcClientsModule } from '@blastz/nest-grpc-helper';
+import { GrpcClientsModule } from '@dtable/nest-grpc-helper';
 
 @Module({
   imports: [
@@ -55,7 +55,7 @@ export class AppModule {}
 Get service instance
 
 ```ts
-import { ServiceProxyDec, ServiceProxy } from '@blastz/nest-grpc-helper';
+import { ServiceProxyDec, ServiceProxy } from '@dtable/nest-grpc-helper';
 
 @Injectable()
 export class AppService {
@@ -111,7 +111,7 @@ Above exception will be converted to
 If you want to customize the filter behavior, you can extend the default `GrpcExceptionFilter` to achieve it.
 
 ```ts
-import { GrpcExceptionFilter } from '@blastz/nest-grpc-helper';
+import { GrpcExceptionFilter } from '@dtable/nest-grpc-helper';
 
 @Catch()
 class CustomFilter extends GrpcExceptionsFilter {
@@ -146,7 +146,7 @@ import {
   HealthCheckRequest,
   HealthCheckResponse,
   ServingStatus,
-} from '@blastz/nest-grpc-helper';
+} from '@dtable/nest-grpc-helper';
 import { Controller } from '@nestjs/common';
 import { GrpcMethod } from '@nestjs/microservices';
 

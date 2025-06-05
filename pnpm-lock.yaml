@@ -8,7 +8,7 @@ importers:
 
   .:
     devDependencies:
-      '@blastz/pkgx':
+      '@dtable/pkgx':
         specifier: ^0.24.0
         version: 0.24.0(tslib@2.8.1)(typescript@5.8.2)
       '@types/jest':
@@ -152,7 +152,7 @@ importers:
         specifier: ^9.0.0
         version: 9.0.1
     devDependencies:
-      '@blastz/logger':
+      '@dtable/logger':
         specifier: ^0.9.0
         version: 0.9.2(@babel/core@7.26.9)(jest@29.7.0)(typescript@5.8.2)
       '@grpc/grpc-js':
@@ -191,7 +191,7 @@ importers:
 
   packages/nest-common-helper/output:
     dependencies:
-      '@blastz/logger':
+      '@dtable/logger':
         specifier: ^0.9.0
         version: 0.9.2(@babel/core@7.26.9)(jest@29.7.0)(typescript@5.8.2)
       '@grpc/grpc-js':
@@ -377,7 +377,7 @@ importers:
         specifier: ^5.0.0
         version: 5.0.0
     devDependencies:
-      '@blastz/logger':
+      '@dtable/logger':
         specifier: ^0.9.2
         version: 0.9.2(@babel/core@7.26.9)(jest@29.7.0)(typescript@5.8.2)
 
@@ -749,7 +749,7 @@ packages:
   /@bcoe/v8-coverage@0.2.3:
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  /@blastz/logger@0.9.2(@babel/core@7.26.9)(jest@29.7.0)(typescript@5.8.2):
+  /@dtable/logger@0.9.2(@babel/core@7.26.9)(jest@29.7.0)(typescript@5.8.2):
     resolution: {integrity: sha512-fgpsDKbLztivgYcdlfe0LBw4+2/VEfEfg9jzmu+yJLu0lcI41omMghNDwIn3JqIWrJVahzcVfNO5+Ozrx+BbHQ==}
     dependencies:
       '@types/node': 18.19.80
@@ -771,7 +771,7 @@ packages:
       - supports-color
       - typescript
 
-  /@blastz/pkgx@0.24.0(tslib@2.8.1)(typescript@5.8.2):
+  /@dtable/pkgx@0.24.0(tslib@2.8.1)(typescript@5.8.2):
     resolution: {integrity: sha512-OaCQ0OrYzU0RuC/W5L4tjSeX+AgiWAef6E9cvB/JXxXwlO5Qz7QbshMdaTkHbPrltZw3fWA4E3FcESGyqP86og==}
     hasBin: true
     dependencies:

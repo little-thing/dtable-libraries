@@ -1,4 +1,4 @@
-import { logger } from '@blastz/logger';
+import { logger } from '@dtable/logger';
 import {
   ArgumentsHost,
   BadRequestException,

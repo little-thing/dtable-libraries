@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install @blastz/qrcode
+npm install @dtable/qrcode
 ```
 
 ## License

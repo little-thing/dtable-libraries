@@ -7,7 +7,7 @@ import {
   logger,
   LoggerLevel,
   SlsLogTransportOptions,
-} from '@blastz/logger';
+} from '@dtable/logger';
 import { deepmerge } from 'deepmerge-ts';
 
 export interface InitLoggerOptions {

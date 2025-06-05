@@ -1,4 +1,4 @@
-import { Logger } from '@blastz/logger';
+import { Logger } from '@dtable/logger';
 import Router from '@koa/router';
 import { Files } from 'formidable';
 import {

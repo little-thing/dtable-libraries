@@ -1,7 +1,7 @@
 import path, { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { logger } from '@blastz/logger';
+import { logger } from '@dtable/logger';
 import Joi from 'joi';
 import request from 'supertest';
 

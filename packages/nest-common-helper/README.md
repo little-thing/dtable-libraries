@@ -5,7 +5,7 @@
 Install nest-common-helper
 
 ```bash
-npm install @blastz/nest-common-helper
+npm install @dtable/nest-common-helper
 ```
 
 ## License

@@ -2,10 +2,10 @@
 
 ## Getting started
 
-Install @blastz/nest-async-cache-dedupe
+Install @dtable/nest-async-cache-dedupe
 
 ```bash
-npm install @blastz/nest-async-cache-dedupe
+npm install @dtable/nest-async-cache-dedupe
 ```
 
 ## Examples
@@ -13,7 +13,7 @@ npm install @blastz/nest-async-cache-dedupe
 Register cache module
 
 ```ts
-import { AsyncCacheDedupeModule } from '@blastz/nest-async-cache-dedupe';
+import { AsyncCacheDedupeModule } from '@dtable/nest-async-cache-dedupe';
 
 @Module({
   imports: [AsyncCacheDedupeModule.forRoot()],
